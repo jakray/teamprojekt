@@ -1,0 +1,121 @@
+html,
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+div {
+  scroll-margin-top: 80px;
+  padding: 1px 1px;
+}
+@media screen and (max-width: 600px) {
+  div {
+    scroll-margin-top: 185px;
+  }
+  * {
+    
+    font-size: 20px;
+  }
+  .tptext{
+    font-size: 25px;
+  }
+  #Titel1 {
+    font-size: 25px;
+  }
+  #footer1 {
+    font-size: 15px;
+  }
+  
+}
+
+ul {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  margin-right: 10px;
+}
+.nav-item {
+  margin-left: 10px;
+}
+li {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.KITREF {
+  margin-left: 10px;
+}
+
+.Opener {
+  position: relative;
+}
+.Opener span {
+  display: block;
+  top: 1px;
+  bottom: ;
+  position: absolute;
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+  padding: 2% 2%;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1, 5;
+}
+hr.rounded {
+position: relative;
+  border-top: 4px solid #029582;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+h2.Header2 {
+  margin-left: 10 px;
+}
+.text2 {
+  font-size: 30px;
+  margin: 20px 20px;
+}
+.text3 {
+  position: relative;
+  font-size: 30px;
+}
+button {
+  width: 120px;
+  color: #029582;
+}
+.List {
+  font-size: 20px;
+}
+.Titel {
+  font-size: 35px;
+}
+.container-fluid {
+  background-color: #029582;
+  border-radius: 2px;
+}
+#end {
+  margin-bottom: 20px;
+}
+#progBardiv{
+  text-align: center;
+  position: relative;
+  height: 38px;
+  background-color: #fff;
+}
+#myBar {
+  width: 1%;
+  height: 38px;
+  background-color: #029582;
+  border-radius: 4px;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}
